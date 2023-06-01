@@ -1,6 +1,6 @@
 {
     "name": "mimicio",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple CLI tool for running a mock API server based on a directory structure.",
     "main": "index.js",
     "scripts": {

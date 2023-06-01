@@ -1,3 +1,10 @@
+[![mimicio](https://github.com/nfinit3/mimicio/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/nfinit3/mimicio/actions/workflows/npm-publish.yml)
+![NPM](https://img.shields.io/npm/l/mimicio)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/mimicio)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/nfinit3/mimicio)
+![GitHub repo size](https://img.shields.io/github/repo-size/nfinit3/mimicio)
+![npm](https://img.shields.io/npm/dw/mimicio)
+
 # Mimicio
 
 A simple CLI tool for running a mock API server based on a directory structure. 

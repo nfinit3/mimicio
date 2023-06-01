@@ -5,7 +5,7 @@ A simple CLI tool for running a mock API server based on a directory structure.
 ## Installation
 
 ```bash
-npm install -g mock-server-cli
+npm install -g mimicio
 ```
 
 ## Directory Structure

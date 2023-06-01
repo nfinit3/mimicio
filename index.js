@@ -49,7 +49,7 @@ app.use((req, res, next) => {
         const data = fs.readFileSync(filePath);
         res.status(status).send(JSON.parse(data));
     } catch (error) {
-        console.error(`Error: ${error}`);
+        // console.error(`Error: ${error}`);
         res.status(500).send({ message: 'Internal Server Error' });
     }
 });
@@ -57,5 +57,6 @@ app.use((req, res, next) => {
 getPort({ port: portNumbers(3000, 3999) }).then((port) => {
     app.listen(port, () => {
         console.log(`Server running on port ${port}`);
+        console.log(`https://localhost:${port}`);
     });
 });

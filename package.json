@@ -1,20 +1,50 @@
 {
     "name": "mimicio",
     "version": "1.0.0",
-    "description": "A simple mock API server",
+    "description": "A simple CLI tool for running a mock API server based on a directory structure.",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nfinit3/mimicio.git"
     },
     "bin": {
-        "mimic": "./index.js"
+        "mimicio": "./index.js"
     },
+    "keywords": [
+        "mock-server",
+        "api-mock",
+        "rest-api",
+        "mocking",
+        "mock-data",
+        "http-mock",
+        "testing",
+        "development",
+        "json",
+        "cli",
+        "nodejs",
+        "express",
+        "directory-structure",
+        "http-requests",
+        "api-testing",
+        "endpoint-mocking",
+        "response-mocking",
+        "api-development",
+        "web-development",
+        "mimicio",
+        "mimic"
+    ],
     "type": "module",
     "author": "Vikram Mudaliar",
     "license": "ISC",
     "dependencies": {
         "express": "^4.18.2",
         "get-port": "^6.1.2"
-    }
+    },
+    "devDependencies": {
+        "prettier-formatter": "^1.0.3"
+    },
+    "prettier": "prettier-formatter"
 }

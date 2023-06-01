@@ -20,7 +20,7 @@ npm install -g mimicio
 The mock server uses a specific directory structure to determine the available services, methods, endpoints, and responses. Here's an example of how to set up your directories and files:
 
 ```
-.
+root
 ├── serviceName
 │   ├── GET
 │   │   ├── endpointName
@@ -40,7 +40,7 @@ In this example:
 
 ## Usage
 
-Navigate to the directory containing your service directories, then run the `mock-server` command:
+Navigate to the root directory containing your service directories, then run the `mimicio` command:
 
 ```bash
 mimicio
